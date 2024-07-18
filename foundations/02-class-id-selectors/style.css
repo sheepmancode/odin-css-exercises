@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Verdana;
+    src: url(./fonts/Verdana.ttf);
+    font-family: dejavu;
+    src: url(./fonts/DejaVuSans.ttf);
+}
+
+.red-bg{
+    background-color: rgb(255, 116, 116);
+    font-family: Verdana, sans-serif;
+}
+
+.red-bg.big{
+font-size: 24px;
+}
+
+#blue-text{
+    font-size: 36px;
+    color: blue;
+}
+
+#green-bg{
+    background-color: rgb(147, 251, 115);
+    font-size: 24px;
+    font-weight: bold;
+}
