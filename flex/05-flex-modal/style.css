@@ -15,15 +15,34 @@ body {
   justify-content: center;
 }
 
+.header {
+  padding: 10px;
+}
+
+.fullcontainer {
+  display: flex;
+  gap:10px ;
+  padding: 10px;
+
+}
+
 .containerinside {
   display: flex;
-  gap: 50px;
+  
+
+}
+
+.buttonss {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
 }
 
 .right {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+}
+
+.text {
+  padding: 10px;
 }
 
 .modal {
@@ -44,6 +63,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  margin: 8px;
 }
 
 .close-button {
@@ -60,6 +81,10 @@ body {
   border: 1px solid #eee;
   padding: 0;
   align-self: flex-end  ;
+  display: inline;
+  align-self: self-start;
+  flex-shrink: 0;
+  margin: 8px;
 }
 
 button {
